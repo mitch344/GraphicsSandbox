@@ -1,0 +1,63 @@
+Build started at 5:02 PM...
+1>------ Build started: Project: XWBTool_Desktop_2022, Configuration: Debug x64 ------
+2>------ Build started: Project: DirectXTK_Desktop_2022_Win10, Configuration: Debug x64 ------
+1>WAVFileReader.cpp
+2>pch.cpp
+1>xwbtool.cpp
+2>AudioEngine.cpp
+2>DynamicSoundEffectInstance.cpp
+2>SoundCommon.cpp
+2>SoundEffect.cpp
+1>Generating Code...
+2>SoundEffectInstance.cpp
+2>SoundStreamInstance.cpp
+2>WaveBank.cpp
+2>WaveBankReader.cpp
+1>XWBTool_Desktop_2022.vcxproj -> C:\Users\Mitch\Downloads\DirectXTK-dec2023\DirectXTK-dec2023\XWBTool\Bin\Desktop_2022\x64\Debug\XWBTool.exe
+2>WAVFileReader.cpp
+2>AlphaTestEffect.cpp
+2>BasicEffect.cpp
+2>BasicPostProcess.cpp
+2>BufferHelpers.cpp
+2>CommonStates.cpp
+2>DDSTextureLoader.cpp
+2>DebugEffect.cpp
+2>DGSLEffect.cpp
+2>DGSLEffectFactory.cpp
+2>DirectXHelpers.cpp
+2>DualPostProcess.cpp
+2>Generating Code...
+2>Compiling...
+2>DualTextureEffect.cpp
+2>BinaryReader.cpp
+2>EffectCommon.cpp
+2>EffectFactory.cpp
+2>EnvironmentMapEffect.cpp
+2>GamePad.cpp
+2>GeometricPrimitive.cpp
+2>Geometry.cpp
+2>GraphicsMemory.cpp
+2>Keyboard.cpp
+2>Model.cpp
+2>ModelLoadCMO.cpp
+2>ModelLoadSDKMESH.cpp
+2>ModelLoadVBO.cpp
+2>Mouse.cpp
+2>NormalMapEffect.cpp
+2>PBREffect.cpp
+2>PBREffectFactory.cpp
+2>ScreenGrab.cpp
+2>SimpleMath.cpp
+2>Generating Code...
+2>Compiling...
+2>SkinnedEffect.cpp
+2>SpriteBatch.cpp
+2>PrimitiveBatch.cpp
+2>SpriteFont.cpp
+2>ToneMapPostProcess.cpp
+2>VertexTypes.cpp
+2>WICTextureLoader.cpp
+2>Generating Code...
+2>DirectXTK_Desktop_2022_Win10.vcxproj -> C:\Users\Mitch\Downloads\DirectXTK-dec2023\DirectXTK-dec2023\Bin\Desktop_2022_Win10\x64\Debug\DirectXTK.lib
+========== Build: 2 succeeded, 0 failed, 1 up-to-date, 0 skipped ==========
+========== Build completed at 5:02 PM and took 23.769 seconds ==========
