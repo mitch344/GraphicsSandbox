@@ -36,15 +36,12 @@ Follow these steps to get started with the project:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/mitch344/GraphicSandbox/GraphicSandbox.git
-
-2. **Extract the Code:**
-   Extract the contents of the "Code" folder to the root of the GraphicSandbox folder (this step is for now)
    
-3. **Install Assimp (optional):**
+2. **Install Assimp (optional):**
    Install Assimp to the default location if you want to load models.
 [Install Assimp](https://kimkulling.itch.io/the-asset-importer-lib)
 
-4. **Open the GraphicSandbox.sln:**
+3. **Open the GraphicSandbox.sln:**
 Open the .sln file with Visual Studio 2022
 [Install Visual Studio 2022]([https://kimkulling.itch.io/the-asset-importer-lib](https://visualstudio.microsoft.com/)https://visualstudio.microsoft.com/)
 
