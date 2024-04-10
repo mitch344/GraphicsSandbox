@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Code">
+      <UniqueIdentifier>{0249a6fa-f4fd-4bf3-bba8-13eae3c4da2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\AssimpLoader">
+      <UniqueIdentifier>{19b968bb-688f-44b1-a6da-9c4d5b0285e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Cameras">
+      <UniqueIdentifier>{2f484e79-a633-45d6-ae52-cb3b9500dc93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Layouts">
+      <UniqueIdentifier>{49db3936-6dd3-4b2a-8f09-d86a7a02e1cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Lights">
+      <UniqueIdentifier>{14924496-3163-4418-a855-e25f11ce64ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\ModelGeometry">
+      <UniqueIdentifier>{25ae3c7d-66b4-4628-96fa-11f48cacf0c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Pipelines">
+      <UniqueIdentifier>{d5b0f052-95cd-4cbb-a0e5-1a7d9549ea58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\ShaderConstants">
+      <UniqueIdentifier>{102cbb1a-104e-4b8c-9d01-ac05beb776cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Time">
+      <UniqueIdentifier>{23fe3685-51a1-40d5-a6f1-afb61ee65638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\UI">
+      <UniqueIdentifier>{ee5df9bd-e73f-406c-9d10-95e2e50d8fd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Utility">
+      <UniqueIdentifier>{cf101453-7cd9-49bf-aaae-7c658deb5ad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\UI\Windows">
+      <UniqueIdentifier>{65dfb3ae-bd16-4a57-9e0c-b1537b87615e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Input">
+      <UniqueIdentifier>{04793041-86a7-4211-9f3a-1a4e12a13983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Geometry">
+      <UniqueIdentifier>{7f919de9-b687-45a6-9fcd-736ce40e5343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{8d651444-f0bb-40fa-9459-0f41f86597a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{f83e120d-76c6-482d-9441-f81fba29df86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\imgui-1.90.1">
+      <UniqueIdentifier>{680740be-7077-432a-bca5-4612be883f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\UI\Overlay">
+      <UniqueIdentifier>{08040963-444c-4a58-9e40-1be68fe7bea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Experimental">
+      <UniqueIdentifier>{335aa0b5-1b76-4cf0-b3a1-f5e6c8255c95}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Code\ModelGeometry\Mesh.cpp">
+      <Filter>Code\ModelGeometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\ModelGeometry\Model.cpp">
+      <Filter>Code\ModelGeometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\ModelGeometry\Material.cpp">
+      <Filter>Code\ModelGeometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Input\Mouse.cpp">
+      <Filter>Code\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Pipelines\D3D11Pipeline.cpp">
+      <Filter>Code\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Cameras\FreeLookCamera.cpp">
+      <Filter>Code\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Cameras\Camera.cpp">
+      <Filter>Code\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\AssimpLoader\AssimpLoader.cpp">
+      <Filter>Code\AssimpLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\UI\Windows\MainWindow.cpp">
+      <Filter>Code\UI\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Time\Timer.cpp">
+      <Filter>Code\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsSandbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraControlHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\imgui-1.90.1\imgui.cpp">
+      <Filter>Dependencies\imgui-1.90.1</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\imgui-1.90.1\imgui_demo.cpp">
+      <Filter>Dependencies\imgui-1.90.1</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\imgui-1.90.1\imgui_draw.cpp">
+      <Filter>Dependencies\imgui-1.90.1</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\imgui-1.90.1\imgui_impl_dx11.cpp">
+      <Filter>Dependencies\imgui-1.90.1</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\imgui-1.90.1\imgui_impl_win32.cpp">
+      <Filter>Dependencies\imgui-1.90.1</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\imgui-1.90.1\imgui_tables.cpp">
+      <Filter>Dependencies\imgui-1.90.1</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\imgui-1.90.1\imgui_widgets.cpp">
+      <Filter>Dependencies\imgui-1.90.1</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Pipelines\D3D11BasePipeline .cpp">
+      <Filter>Code\Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\UI\Overlay\IMGuiWrapper.cpp">
+      <Filter>Code\UI\Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Experimental\D3D11VRPipeline.cpp">
+      <Filter>Code\Experimental</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\ModelGeometry\Mesh.h">
+      <Filter>Code\ModelGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\ModelGeometry\Model.h">
+      <Filter>Code\ModelGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\ModelGeometry\Material.h">
+      <Filter>Code\ModelGeometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Input\Mouse.h">
+      <Filter>Code\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Pipelines\D3D11Pipeline.h">
+      <Filter>Code\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Lights\AreaLight.h">
+      <Filter>Code\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Lights\DirectionalLight.h">
+      <Filter>Code\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Lights\PointLight.h">
+      <Filter>Code\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Lights\SpotLight.h">
+      <Filter>Code\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Cameras\FreeLookCamera.h">
+      <Filter>Code\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Cameras\Camera.h">
+      <Filter>Code\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\AssimpLoader\AssimpLoader.h">
+      <Filter>Code\AssimpLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\UI\Windows\MainWindow.h">
+      <Filter>Code\UI\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\ShaderConstants\ShaderConstants.h">
+      <Filter>Code\ShaderConstants</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Time\Timer.h">
+      <Filter>Code\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Geometry\Torus.h">
+      <Filter>Code\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Geometry\Sphere.h">
+      <Filter>Code\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Layouts\VertexLayout.h">
+      <Filter>Code\Layouts</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Layouts\ResourceSlot.h">
+      <Filter>Code\Layouts</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Utility\Utils.h">
+      <Filter>Code\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraControlHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\imgui-1.90.1\imconfig.h">
+      <Filter>Dependencies\imgui-1.90.1</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\imgui-1.90.1\imgui.h">
+      <Filter>Dependencies\imgui-1.90.1</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\imgui-1.90.1\imgui_impl_dx11.h">
+      <Filter>Dependencies\imgui-1.90.1</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\imgui-1.90.1\imgui_impl_win32.h">
+      <Filter>Dependencies\imgui-1.90.1</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\imgui-1.90.1\imgui_internal.h">
+      <Filter>Dependencies\imgui-1.90.1</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\imgui-1.90.1\imstb_rectpack.h">
+      <Filter>Dependencies\imgui-1.90.1</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\imgui-1.90.1\imstb_textedit.h">
+      <Filter>Dependencies\imgui-1.90.1</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\imgui-1.90.1\imstb_truetype.h">
+      <Filter>Dependencies\imgui-1.90.1</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Pipelines\D3D11BasePipeline.h">
+      <Filter>Code\Pipelines</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\UI\Overlay\IMGuiWrapper.h">
+      <Filter>Code\UI\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\UI\Overlay\LightUI.h">
+      <Filter>Code\UI\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Experimental\D3D11VRPipeline.h">
+      <Filter>Code\Experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\UI\Overlay\FreeLookCameraUI.h">
+      <Filter>Code\UI\Overlay</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\PixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\VertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
