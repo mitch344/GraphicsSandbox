@@ -12,7 +12,7 @@ I have kept a Experimental folder for new features and concepts I'm learning.
 
 ## Additional Resources
 ![Example Image](Renders/gtr.png)
-![Example Image](Renders/DirectionalLight.png)
+![Example Image](Renders/LightingExample.gif)
 ![Example Image](Renders/windmill.png)
 
 
